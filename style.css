@@ -36,7 +36,7 @@ p {
     font-size: 15px;
 }
 .attribution {
-    display: none;
+    padding-top: 5%;
 }
 
 @media screen and (max-width: 430px) {
@@ -52,5 +52,10 @@ p {
     }
     h1 {
         font-size: 23px;
+    }
+}
+@media screen and (min-width: 1800px) {
+    main {
+        width: 14vw;
     }
 }
